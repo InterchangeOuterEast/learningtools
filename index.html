@@ -3,52 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="twitter:card" content="summary_large_image">
     <title>IOE Learning Tools</title>
     <style>
       body {
         opacity: 0;
-        transition: opacity 300ms ease-in-out;
+        transition: opacity 1000ms ease-in-out;
       }
-
       body.loaded {
         opacity: 1;
       }
     </style>
+
     <link rel="stylesheet" href="main.css" />
   </head>
 
-  <body>
-    <section id="main">
-      <img
-        src="logo.png"
-        style="height: 50px;width:50px;"
-        alt="Portrait of Adam"
-        class="portrait"
-      />
-      <h1>Interchange Outer East&nbsp;Learning Tools</h1>
- 
-   
-    </section>
+  <div class="header" id="myHeader" class="sticky" style="height:100px;background: white;">
+    <img    src="images/logofull.jpg"    style="height: 100px;"     alt="IOE logo"    style="display: inline-block;"  />
+    <h style="float:right;height:100px;line-height: 118px;padding-right:20px;color:#0084cb">Interchange Learning Environment</h>
+  </div>
+
+  <body style="background-color: #195191;">
 
     <section id="projects">
       <div  style="text-align: center;" class="heading">
         <h2>Select Training</h2>
-        
-        
-        
       </div>
+
+      <b>
+      <div style="text-align: left;"><a href="typesofabuseandfailuretodisclose/index.html">Types Of Abuse And Failure To Disclose</a></div>
+      <br>
+      <div style="text-align: left;"><a href="victorianchildsafestandards/index.html">Victorian Child Safe Standards</a></div>
+      <br><br>
+      <div style="text-align: center;"><a href="https://ioe.org.au">Return Home</a></div>
+      </b>
+
     </section>
 
-    <div style="text-align: center;"><a href="typesofabuseandfailuretodisclose/index.html">Types Of Abuse And Failure To Disclose</a></div>
-    <div style="text-align: center;"><a href="victorianchildsafestandards/index.html">Victorian Child Safe Standards</a></div>
+  </body>
 
-  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e658a8159cb34b1eb6097afd66af6bb0"}'></script><!-- Cloudflare Pages Analytics --></body>
-  <script>
-    window.addEventListener('load', function () {
-      document.querySelector('body').className = 'loaded';
-    })
-  </script>
+    <script>
+      window.addEventListener('load', function () {
+        document.querySelector('body').className = 'loaded';
+      })
+    </script>
+
 
 </html>
