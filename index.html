@@ -1,51 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>IOE Learning Tools</title>
-    <style>
-      body {
-        opacity: 0;
-        transition: opacity 1000ms ease-in-out;
-      }
-      body.loaded {
-        opacity: 1;
-      }
-    </style>
+<html>
 
-    <link rel="stylesheet" href="main.css" />
-  </head>
 
-  <div class="header" id="myHeader" class="sticky" style="height:100px;background: white;">
-    <img    src="images/logofull.jpg"    style="height: 100px;"     alt="IOE logo"    style="display: inline-block;"  />
-    <h style="float:right;height:100px;line-height: 118px;padding-right:20px;color:#0084cb">Interchange Learning Environment</h>
+
+<head>
+  <link href="./main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body id="thebody" class="">
+  
+  <div id="leftpanel">
+
+    <div class="item">
+      <div class="inneritem">
+        <a id="mylink" href="ioe.org.au"><p style="color: #2d2d2d;">Victorian Safety Standards</p></a>
+       
+     </div>
   </div>
 
-  <body style="background-color: #195191;">
+  <div class="item">
+      <div class="inneritem">
+       <p style="color: #2d2d2d;">Other Tab</p>
+     </div>
+   </div>
 
-    <section id="projects">
-      <div  style="text-align: center;" class="heading">
-        <h2>Select Training</h2>
-      </div>
+  </div>
+    <div id="rightpanel">
 
-      <b>
-      <div style="text-align: left;"><a href="typesofabuseandfailuretodisclose/index.html">Types Of Abuse And Failure To Disclose</a></div>
-      <br>
-      <div style="text-align: left;"><a href="victorianchildsafestandards/index.html">Victorian Child Safe Standards</a></div>
-      <br><br>
-      <div style="text-align: center;"><a href="https://ioe.org.au">Return Home</a></div>
-      </b>
+      <img src="images/logofull.jpg" style="display: block; margin: auto;height: 100px;padding-top:25vh">
+      <h1 style="text-align:center;padding-left:25px;color:#1A5092;">Learning Tools</h1>
+      <h2 style="font-family:arial;text-align:center;padding-left:25px;color:black;">Select A Unit To Begin</h2>
 
-    </section>
+      <br><br><br><br><br><br>
+      <a style="display: block; margin: auto;text-align:center;color:black;" href="ioe.org.au">Return Home</a>
 
-  </body>
-
-    <script>
-      window.addEventListener('load', function () {
-        document.querySelector('body').className = 'loaded';
-      })
-    </script>
-
+  </div>
+  
+</body>
 
 </html>
