@@ -1,12 +1,8 @@
-
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%
   }
-
-
 
   @font-face {
     font-family: mainFont;
@@ -17,8 +13,6 @@
     font-family: 'mainFont';
     margin: 0px;
 }
-
-
 
 #leftpanel{
     height:100vh;
@@ -36,10 +30,6 @@
     float:left;
     margin-right:-5px;
 }
-
-#linkcontainer {
-}
-
 
 a {
     font-family: Arial, bold;
@@ -99,6 +89,6 @@ h{
     font-family: arial;
     font-weight: bold;
     text-align: center;
-    font-color: #aaaaaa;
+    color: #aaaaaa;
  }
 
